@@ -58,7 +58,7 @@ const Mission = () => {
             </Card>
             <Card className="max-w-[600px] rounded-3xl shadow-lg">
               <img
-                src="../public/Assets/mission_illus.jpg"
+                src="Assets/mission_illus.jpg"
                 alt="Mission Illustration"
                 className="rounded-t-3xl"
               />
