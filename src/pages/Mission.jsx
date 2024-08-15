@@ -63,7 +63,10 @@ const Mission = () => {
                 className="rounded-t-3xl"
               />
               <CardFooter>
-                <a className="text-sm" href="#">
+                <a
+                  className="text-sm "
+                  href="https://www.freepik.com/free-vector/deaf-mute-people-concept-illustration_106402110.htm#fromView=search&page=1&position=3&uuid=6af8242c-2846-46a9-af33-518536c69600"
+                >
                   Image by storyset on Freepik
                 </a>
               </CardFooter>
