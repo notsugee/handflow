@@ -30,7 +30,7 @@ const Home = () => {
               </div>
             </div>
             <img
-              src="../public/hand.gif"
+              src="../public/Assets/hand.gif"
               width="550"
               height="550"
               alt="Hero"
@@ -93,7 +93,7 @@ const Home = () => {
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
           <img
-            src="../public/hand7.gif"
+            src="../public/Assets/hand7.gif"
             alt="Image"
             className="mx-auto aspect-square overflow-hidden rounded-xl object-scale-down sm:w-full lg:order-last"
           />
