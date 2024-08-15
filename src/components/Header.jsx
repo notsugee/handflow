@@ -23,7 +23,7 @@ const Header = () => {
         <div className="container">
           <div className="flex space-x-2 items-center">
             <h1 className="text-3xl font-nephilmitalic text-secondary">
-              Handflow
+              <a href="/">Handflow</a>
             </h1>
             <div className="container flex items-center px-20 space-x-20 font-tommymedium">
               <DropdownMenu
@@ -45,17 +45,23 @@ const Header = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="bg-white font-tommymedium capitalize">
                   <DropdownMenuItem className="hover:bg-gray-200 cursor-pointer">
-                    <a href="/profile">Our team</a>
+                    <a href="/team">Our team</a>
                   </DropdownMenuItem>
                   <DropdownMenuItem className="hover:bg-gray-200 cursor-pointer">
-                    <a href="/billing">Our mission</a>
+                    <a href="/mission">Our mission</a>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
-              <a className="space-x-1 hover:cursor-pointer hover:underline uppercase hover:text-secondary">
+              <a
+                href="/practice"
+                className="space-x-1 hover:cursor-pointer hover:underline uppercase hover:text-secondary"
+              >
                 Practice
               </a>
-              <a className="space-x-1 hover:cursor-pointer hover:underline uppercase hover:text-secondary">
+              <a
+                href="/learn"
+                className="space-x-1 hover:cursor-pointer hover:underline uppercase hover:text-secondary"
+              >
                 Learn
               </a>
             </div>

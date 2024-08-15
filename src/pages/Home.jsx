@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 const Home = () => {
@@ -22,9 +21,11 @@ const Home = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                <Button variant="secondary" className="text-white">
-                  Start Practicing
-                </Button>
+                <a href="/practice">
+                  <Button variant="secondary" className="text-white">
+                    Start Practicing
+                  </Button>
+                </a>
               </div>
             </div>
             <img
@@ -71,7 +72,7 @@ const Home = () => {
               </p>
             </div>
             <div className="grid gap-1">
-              <h3 className="text-xl font-bold">Free of Cost & private</h3>
+              <h3 className="text-xl font-bold">Free of Cost & Private</h3>
               <p className="text-muted-foreground">
                 Our platform is free of cost for all users. No hidden charges.
                 No data collected.
@@ -89,7 +90,7 @@ const Home = () => {
           />
           <div className="flex flex-col justify-center space-y-4">
             <div>
-              <div className="inline-block py-2 rounded-lg bg-mutedpx-3 py-1 text-sm">
+              <div className="inline-block py-2 rounded-lg bg-mutedpx-3 text-sm">
                 <Badge variant="secondary" className="text-white">
                   Flexible Learning
                 </Badge>
@@ -107,9 +108,11 @@ const Home = () => {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button variant="secondary" className="text-white">
-                View Our Mission
-              </Button>
+              <a href="/mission">
+                <Button variant="secondary" className="text-white">
+                  View Our Mission
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -128,9 +131,11 @@ const Home = () => {
             </p>
           </div>
           <div className="flex flex-col gap-2 min-[400px]:flex-row lg:justify-end">
-            <Button variant="secondary" className="text-white">
-              Our Team
-            </Button>
+            <a href="team">
+              <Button variant="secondary" className="text-white">
+                Our Team
+              </Button>
+            </a>
           </div>
         </div>
       </section>

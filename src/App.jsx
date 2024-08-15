@@ -1,10 +1,10 @@
 import Header from "./components/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Team from "./components/Team";
-import Mission from "./components/Mission";
-import Practice from "./components/Practice";
-import Learn from "./components/Learn";
-import Home from "./components/Home";
+import Home from "./pages/Home";
+import Team from "./pages/Team";
+import Mission from "./pages/Mission";
+import Practice from "./pages/Practice";
+import Learn from "./pages/Learn";
 
 function App() {
   return (
