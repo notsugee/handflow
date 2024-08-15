@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
                   Master Sign Language with{" "}
                   <span className="text-secondary">Ease</span>
                 </h1>
-                <p className="max-w-[600px] text-muted-foreground md:text-xl">
+                <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Our interactive platform provides Practice lessons and
                   learning resources to help you become a confident sign
                   language communicator.
@@ -57,21 +58,29 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="mx-auto grid max-w-5xl items-start gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-            <div className="grid gap-1">
+          <div className="mx-auto flex max-w-5xl items-start gap-6 py-12">
+            <div className="flex-1">
               <h3 className="text-xl font-bold">Lessons</h3>
               <p className="text-muted-foreground">
                 We provide lessons ensuring you make steady progress.
               </p>
             </div>
-            <div className="grid gap-1">
+            <Separator
+              orientation="vertical"
+              className="h-auto self-stretch mx-4"
+            />
+            <div className="flex-1">
               <h3 className="text-xl font-bold">Practice Sessions</h3>
               <p className="text-muted-foreground">
                 Monitor and upskill your sign language proficiency with our
                 practice sessions.
               </p>
             </div>
-            <div className="grid gap-1">
+            <Separator
+              orientation="vertical"
+              className="h-auto self-stretch mx-4"
+            />
+            <div className="flex-1">
               <h3 className="text-xl font-bold">Free of Cost & Private</h3>
               <p className="text-muted-foreground">
                 Our platform is free of cost for all users. No hidden charges.
