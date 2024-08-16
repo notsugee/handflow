@@ -5,6 +5,7 @@ import Team from "./pages/Team";
 import Mission from "./pages/Mission";
 import Practice from "./pages/Practice";
 import Learn from "./pages/Learn";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/learn" element={<Learn />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }
