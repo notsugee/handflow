@@ -37,6 +37,12 @@
     url("./assets/fonts/Nephilm-italic.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "TeamMedium";
+  src: local(FreightSansProMedium-Regular),
+    url("./assets/fonts/FreightSansProMedium-Regular.ttf") format("truetype");
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -77,6 +77,7 @@ module.exports = {
         tommymedium: ["Medium"],
         nephilm: ["Header"],
         nephilmitalic: ["HeaderItalic"],
+        freightmedium: ["TeamMedium"],
       },
 
       fontWeight: {
