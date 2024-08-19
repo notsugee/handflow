@@ -30,7 +30,7 @@ const Home = () => {
               </div>
             </div>
             <img
-              src="Assets/hand.gif"
+              src=" Assets/hand.gif"
               width="550"
               height="550"
               alt="Hero"
