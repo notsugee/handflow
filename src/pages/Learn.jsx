@@ -23,18 +23,16 @@ const Learn = () => {
           <Card className="hover:scale-105 transition-all">
             <CardHeader>
               <CardTitle className="text-2xl font-tommymedium font-medium">
-                Alphabet (Indian Sign Language)
+                Learn ASL Alphabet Video
               </CardTitle>
               <CardDescription>
-                The DEF-ISL app makes the learning of sign language easy,
-                accessible and interesting. Packed with 5000+ easy-to-understand
-                signs and phrases, in-built videos, illustrations, this
-                easy-to-navigate app can be used both by adults and children who
-                are deaf or hearing impaired
+                This video teaches the ASL alphabet, allowing users to click on
+                specific letters for review, and suggests an alternative video
+                for memory tips.
               </CardDescription>
             </CardHeader>
             <div className="p-4">
-              <YoutubeEmbed embedId="Vj_13bdU4dU" />
+              <YoutubeEmbed embedId="6_gXiBe9y9A" />
             </div>
           </Card>
         </div>
@@ -42,17 +40,16 @@ const Learn = () => {
           <Card className="hover:scale-105 transition-all">
             <CardHeader>
               <CardTitle className="text-2xl font-tommymedium font-medium">
-                Alphabets in Indian Sign Language
+                25 ASL Signs You Need to Know
               </CardTitle>
               <CardDescription>
-                Indian Sign Language, ISL is essential for fostering inclusivity
-                and communication in a diverse society. ISL enables millions of
-                deaf and hard-of-hearing individuals in India to express
-                themselves and connect with others.
+                This video introduces beginners to 25 essential ASL signs,
+                covering hand shape, palm orientation, movement, location, and
+                non-manual signals for each sign.
               </CardDescription>
             </CardHeader>
             <div className="p-4">
-              <YoutubeEmbed embedId="R6aARjwRQec" />
+              <YoutubeEmbed embedId="0FcwzMq4iWg" />
             </div>
           </Card>
         </div>
@@ -60,18 +57,16 @@ const Learn = () => {
           <Card className="hover:scale-105 transition-all">
             <CardHeader>
               <CardTitle className="text-2xl font-tommymedium font-medium">
-                Alphabet in Indian Sign Language
+                20+ Basic Sign Language Phrases
               </CardTitle>
               <CardDescription>
-                By learning ISL, you contribute to breaking down communication
-                barriers, promoting social integration, and supporting the
-                rights of the deaf community. It also enhances cultural
-                understanding and helps bridge gaps between hearing and
-                non-hearing people
+                The video covers common American Sign Language (ASL) phrases and
+                questions for beginners. It teaches greetings like 'hello',
+                'hey', and 'what's up'
               </CardDescription>
             </CardHeader>
             <div className="p-4">
-              <YoutubeEmbed embedId="ltzSNNa13W8" />
+              <YoutubeEmbed embedId="v1desDduz5M" />
             </div>
           </Card>
         </div>
@@ -79,18 +74,16 @@ const Learn = () => {
           <Card className="hover:scale-105 transition-all">
             <CardHeader>
               <CardTitle className="text-2xl font-tommymedium font-medium">
-                Alphabets in Indian Sign Language
+                Mastering High-Frequency Signs
               </CardTitle>
               <CardDescription>
-                Learning ISL is a step towards building a more inclusive
-                society. It empowers you to communicate with the deaf community,
-                fostering understanding and connection. You contribute to
-                breaking down barriers and supporting equal opportunities for
-                everyone
+                Learn how to acquire a new language by focusing on everyday
+                words and signs. Explore 10 words with multiple meanings and
+                variations in sign language to enhance communication skills.
               </CardDescription>
             </CardHeader>
             <div className="p-4">
-              <YoutubeEmbed embedId="WrjfUvmWzko" />
+              <YoutubeEmbed embedId="jCUaMdXsI7w" />
             </div>
           </Card>
         </div>
@@ -98,18 +91,16 @@ const Learn = () => {
           <Card className="hover:scale-105 transition-all">
             <CardHeader>
               <CardTitle className="text-2xl font-tommymedium font-medium">
-                Numbers in Indian Sign Language
+                100 Basic Signs You Should Know
               </CardTitle>
               <CardDescription>
-                Mastering numbers in ISL allows you to convey accurate
-                information in contexts like banking, shopping, and scheduling.
-                It also enhances the ability to engage in educational and
-                professional settings where numerical data is frequently
-                exchanged.
+                Embark on a journey to master ASL basics with a four-part series
+                teaching the initial 100 signs. Shadow, review, and practice
+                these signs to kickstart your sign language conversations.
               </CardDescription>
             </CardHeader>
             <div className="p-4">
-              <YoutubeEmbed embedId="PVVSQvPyoK0" />
+              <YoutubeEmbed embedId="qa9qSPsj840" />
             </div>
           </Card>
         </div>
@@ -117,18 +108,16 @@ const Learn = () => {
           <Card className="hover:scale-105 transition-all">
             <CardHeader>
               <CardTitle className="text-2xl font-tommymedium font-medium">
-                Indian Sign Language Numbers
+                How to Sign - TEACHER - STUDENT
               </CardTitle>
               <CardDescription>
-                Understanding ISL numbers is a foundational skill that supports
-                more complex conversations and contributes to the overall
-                fluency in the language, making interactions more seamless and
-                meaningful. Hence, Learning numbers ISL is crucial for effective
-                communication
+                Unlock the world of sign language with this educational video on
+                signing 'teacher,' 'student,' and 'study.' Join ASL LOVE to
+                expand your signing vocabulary and communication skills.
               </CardDescription>
             </CardHeader>
             <div className="p-4">
-              <YoutubeEmbed embedId="lhmMZ5q2chs" />
+              <YoutubeEmbed embedId="KENbHqnozyo" />
             </div>
           </Card>
         </div>
